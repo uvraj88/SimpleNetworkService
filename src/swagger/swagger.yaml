@@ -1,0 +1,27 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Simple Network Service API's
+  contact:
+    email: "yuv.swt@gmail.com"
+basePath: "/"
+tags:
+  - name: "Ping"
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+# Paths supported by the server application
+paths:
+  /ping:
+    get:
+      tags:
+      - "Ping"
+      summary: "Http-ping health check."
+      description: "Returns a ping.\n"
+      operationId: "controllers.ping_controller.ping"
+      parameters: []
+      responses:
+        200:
+          description: "OK"
