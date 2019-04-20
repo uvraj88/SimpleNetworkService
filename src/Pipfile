@@ -7,7 +7,6 @@ verify_ssl = true
 
 [packages]
 connexion = "*"
-geocoder = "*"
 greenlet = {version = "*", platform_python_implementation="=='CPython'"}
 
 [requires]
