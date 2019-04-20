@@ -8,6 +8,7 @@ info:
 basePath: "/"
 tags:
   - name: "Ping"
+  - name: "Resolve"
 consumes:
   - "application/json"
 produces:
@@ -17,11 +18,32 @@ paths:
   /ping:
     get:
       tags:
-      - "Ping"
+        - "Ping"
       summary: "Http-ping health check."
-      description: "Returns a ping.\n"
+      description: "Returns a ping."
       operationId: "controllers.ping_controller.ping"
       parameters: []
       responses:
         200:
-          description: "OK"
+          description: "Returns a ping response!"
+  /resolve:
+    get:
+      tags:
+        - "Resolve"
+      summary: "Resolved lat and long to an address."
+      description: "Returns an address."
+      operationId: "controllers.resolve_controller.resolve"
+      parameters:
+        - name: lat
+          in: query
+          type: number
+          format: float
+          default: 49.45
+        - name: long
+          in: query
+          type: number
+          format: float
+          default: -123.50
+      responses:
+        200:
+          description: "Returns a human readable address"
