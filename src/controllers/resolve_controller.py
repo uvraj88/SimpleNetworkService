@@ -1,7 +1,7 @@
-from geocoder_api import GeocoderApi
+from sns_api import SNSApi
 
-geocoderApi = GeocoderApi('66G2EC8SONOks4eiqzWv', 'B2I7--7yCJhmzW6w_MuIOQ')
+snsApi = SNSApi()
 
 def resolve(lat, long):
-    response = geocoderApi.resolve_to_address(lat, long)
+    response = snsApi.resolve_to_address(lat, long)
     return response
