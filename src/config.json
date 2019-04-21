@@ -1,0 +1,12 @@
+{
+  "google": [
+    "dummy_apikey"
+  ],
+  "bing": [
+    "dummy_apikey"
+  ],
+  "here": [
+    "dummy_api_id",
+    "dummy_api_code"
+  ]
+}

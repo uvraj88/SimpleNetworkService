@@ -1,28 +1,30 @@
 import logging
-
 class bingApi(object):
-    """ Base class for Bing Search,
-    which is used to fetch address using Bing."""
+    """Base class for Bing Search,
+    which is used to fetch address using Bing.
+    """
 
-    def __init__(self, app_key=None, timeout=None):
+    def __init__(self, config, app_key=None, timeout=None):
         """Returns a Api instance.
         Args:
+          config (array): Json object to fetch keys.
           app_key (str): App key taken from bing Developer Portal.
           timeout (int): Timeout limit for requests.
         """
-        self.__set_credentials(app_key)
+        self.__set_credentials(app_key, config)
         self.__set_timeout(timeout)
         self._base_url = 'http://dev.virtualearth.net/REST/v1/Locations/'
 
-    def __set_credentials(self, app_key):
+    def __set_credentials(self, app_key, config):
         """Setter for credentials.
         Args:
           app_key (str): App key taken from Bing Developer Portal.
+          config (array): Json object to fetch keys.
         """
         if app_key:
             self.app_key = app_key
         else:
-            self.app_key = "AsGsYbid40e6fmCJ3-cpuscPsMKMBI7Rua_IinzIgt1Tod4Nm_zX7QKcRmA3_sgr"
+            self.app_key = config['bing'][0]
 
     def __set_timeout(self, timeout):
         """Setter for timeout.

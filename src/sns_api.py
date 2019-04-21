@@ -2,6 +2,9 @@ import json
 import logging
 import requests
 
+with open('config.json') as json_data_file:
+    config = json.load(json_data_file)
+
 from services.here_api import hereApi
 from services.google_api import googleApi
 from services.bing_api import bingApi
@@ -15,9 +18,9 @@ class SNSApi():
     def __init__(self):
         """Returns a SNSApi instance.
         """
-        self.hereApi = hereApi()
-        self.googleApi = googleApi()
-        self.bingApi = bingApi()
+        self.hereApi = hereApi(config)
+        self.googleApi = googleApi(config)
+        self.bingApi = bingApi(config)
 
     def __get(self, lat, long):
         """Getter for an an address based provider implementation.
