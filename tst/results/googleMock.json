@@ -1,0 +1,491 @@
+{
+  "plus_code": {
+    "compound_code": "5RW5+MV Richmond, BC, Canada",
+    "global_code": "84XR5RW5+MV"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "Vancouver International Airport",
+          "short_name": "Vancouver International Airport",
+          "types": [
+            "airport",
+            "establishment",
+            "point_of_interest"
+          ]
+        },
+        {
+          "long_name": "3211",
+          "short_name": "3211",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Grant McConachie Way",
+          "short_name": "Grant McConachie Way",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Richmond",
+          "short_name": "Richmond",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Greater Vancouver",
+          "short_name": "Greater Vancouver",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "British Columbia",
+          "short_name": "BC",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "V7B 0A4",
+          "short_name": "V7B 0A4",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Vancouver International Airport (YVR), 3211 Grant McConachie Way, Richmond, BC V7B 0A4, Canada",
+      "geometry": {
+        "location": {
+          "lat": 49.1966913,
+          "lng": -123.1815123
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 49.1980402802915,
+            "lng": -123.1801633197085
+          },
+          "southwest": {
+            "lat": 49.1953423197085,
+            "lng": -123.1828612802915
+          }
+        }
+      },
+      "place_id": "ChIJm6MnhjQLhlQRhIA0hqzMaLo",
+      "plus_code": {
+        "compound_code": "5RW9+M9 Richmond, Greater Vancouver A, BC, Canada",
+        "global_code": "84XR5RW9+M9"
+      },
+      "types": [
+        "airport",
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "V7B 1K7",
+          "short_name": "V7B 1K7",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "Richmond",
+          "short_name": "Richmond",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Greater Vancouver",
+          "short_name": "Greater Vancouver",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "British Columbia",
+          "short_name": "BC",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Richmond, BC V7B 1K7, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 49.198016,
+            "lng": -123.1659511
+          },
+          "southwest": {
+            "lat": 49.184298,
+            "lng": -123.20882
+          }
+        },
+        "location": {
+          "lat": 49.19018490000001,
+          "lng": -123.1888827
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 49.198016,
+            "lng": -123.1659511
+          },
+          "southwest": {
+            "lat": 49.184298,
+            "lng": -123.20882
+          }
+        }
+      },
+      "place_id": "ChIJrdmh7TYLhlQRF6RdLSkc9ic",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "V7B",
+          "short_name": "V7B",
+          "types": [
+            "postal_code",
+            "postal_code_prefix"
+          ]
+        },
+        {
+          "long_name": "Richmond",
+          "short_name": "Richmond",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Greater Vancouver",
+          "short_name": "Greater Vancouver",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "British Columbia",
+          "short_name": "BC",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Richmond, BC V7B, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 49.274171,
+            "lng": -123.134902
+          },
+          "southwest": {
+            "lat": 49.1766871,
+            "lng": -123.266344
+          }
+        },
+        "location": {
+          "lat": 49.1995642,
+          "lng": -123.1862331
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 49.274171,
+            "lng": -123.134902
+          },
+          "southwest": {
+            "lat": 49.1766871,
+            "lng": -123.266344
+          }
+        }
+      },
+      "place_id": "ChIJU_HC101zhlQRum8ID-5W6aU",
+      "types": [
+        "postal_code",
+        "postal_code_prefix"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Richmond",
+          "short_name": "Richmond",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Greater Vancouver A",
+          "short_name": "Greater Vancouver A",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Greater Vancouver",
+          "short_name": "Greater Vancouver",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "British Columbia",
+          "short_name": "BC",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Richmond, BC, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 49.27075,
+            "lng": -122.957113
+          },
+          "southwest": {
+            "lat": 49.086123,
+            "lng": -123.314888
+          }
+        },
+        "location": {
+          "lat": 49.1665898,
+          "lng": -123.133569
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 49.27075,
+            "lng": -122.957113
+          },
+          "southwest": {
+            "lat": 49.086123,
+            "lng": -123.314888
+          }
+        }
+      },
+      "place_id": "ChIJPU3v9Jl1hlQRtfoCuq0kUGo",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Greater Vancouver",
+          "short_name": "Greater Vancouver",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "British Columbia",
+          "short_name": "BC",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Greater Vancouver, BC, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 49.5745549,
+            "lng": -122.408262
+          },
+          "southwest": {
+            "lat": 49.00205589999999,
+            "lng": -123.6224361
+          }
+        },
+        "location": {
+          "lat": 49.2501243,
+          "lng": -123.0824217
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 49.5745549,
+            "lng": -122.408262
+          },
+          "southwest": {
+            "lat": 49.00205589999999,
+            "lng": -123.6224361
+          }
+        }
+      },
+      "place_id": "ChIJpd_5BZDOYlQRpvz0npdsnM4",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "British Columbia",
+          "short_name": "BC",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "British Columbia, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 60.0001489,
+            "lng": -114.054221
+          },
+          "southwest": {
+            "lat": 48.224556,
+            "lng": -139.0570702
+          }
+        },
+        "location": {
+          "lat": 53.7266683,
+          "lng": -127.6476205
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 60.0001489,
+            "lng": -114.054221
+          },
+          "southwest": {
+            "lat": 48.224556,
+            "lng": -139.0570702
+          }
+        }
+      },
+      "place_id": "ChIJr2prqsdmelMR-fHnN-lBG4g",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 83.63809999999999,
+            "lng": -50.9766
+          },
+          "southwest": {
+            "lat": 41.6765559,
+            "lng": -141.00187
+          }
+        },
+        "location": {
+          "lat": 56.130366,
+          "lng": -106.346771
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 83.63809999999999,
+            "lng": -50.9766
+          },
+          "southwest": {
+            "lat": 41.6765559,
+            "lng": -141.00187
+          }
+        }
+      },
+      "place_id": "ChIJ2WrMN9MDDUsRpY9Doiq3aJk",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ],
+  "status": "OK"
+}

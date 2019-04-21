@@ -1,0 +1,674 @@
+{
+  "Response": {
+    "MetaInfo": {
+      "Timestamp": "2019-04-21T04:44:30.750+0000",
+      "NextPageInformation": "2"
+    },
+    "View": [
+      {
+        "_type": "SearchResultsViewType",
+        "ViewId": 0,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 789.1,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_0fN1tOL9Bmcspm.HLsCrJC_l_1132854783_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.19429,
+                "Longitude": -123.18006
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19452,
+                  "Longitude": -123.18006
+                },
+                "BottomRight": {
+                  "Latitude": 49.19429,
+                  "Longitude": -123.17967
+                }
+              },
+              "Address": {
+                "Label": "Grant McConachie Way, Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "Street": "Grant McConachie Way",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1132854783",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 789.4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_0fN1tOL9Bmcspm.HLsCrJC_l_1198889431_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.19377,
+                "Longitude": -123.18038
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19429,
+                  "Longitude": -123.18038
+                },
+                "BottomRight": {
+                  "Latitude": 49.19377,
+                  "Longitude": -123.18006
+                }
+              },
+              "Address": {
+                "Label": "Grant McConachie Way, Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "Street": "Grant McConachie Way",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1198889431",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 789.4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_0fN1tOL9Bmcspm.HLsCrJC_l_1198889430_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.19377,
+                "Longitude": -123.18038
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19377,
+                  "Longitude": -123.18043
+                },
+                "BottomRight": {
+                  "Latitude": 49.19358,
+                  "Longitude": -123.18038
+                }
+              },
+              "Address": {
+                "Label": "Grant McConachie Way, Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "Street": "Grant McConachie Way",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1198889430",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 795.1,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_0fN1tOL9Bmcspm.HLsCrJC_l_1198889536_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.19358,
+                "Longitude": -123.18043
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19358,
+                  "Longitude": -123.18053
+                },
+                "BottomRight": {
+                  "Latitude": 49.19319,
+                  "Longitude": -123.18043
+                }
+              },
+              "Address": {
+                "Label": "Grant McConachie Way, Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "Street": "Grant McConachie Way",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1198889536",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 805.4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_-LXVhDMEU2VlYg4uDcnJMA_l_1190038551_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.194,
+                "Longitude": -123.17999
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19427,
+                  "Longitude": -123.17999
+                },
+                "BottomRight": {
+                  "Latitude": 49.194,
+                  "Longitude": -123.17946
+                }
+              },
+              "Address": {
+                "Label": "Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1190038551",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 807.7,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_0fN1tOL9Bmcspm.HLsCrJC_l_932075436_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.19452,
+                "Longitude": -123.17967
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19461,
+                  "Longitude": -123.17967
+                },
+                "BottomRight": {
+                  "Latitude": 49.19452,
+                  "Longitude": -123.17932
+                }
+              },
+              "Address": {
+                "Label": "Grant McConachie Way, Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "Street": "Grant McConachie Way",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "932075436",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 808.7,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_0fN1tOL9Bmcspm.HLsCrJC_l_1198889535_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.19319,
+                "Longitude": -123.18053
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19319,
+                  "Longitude": -123.18054
+                },
+                "BottomRight": {
+                  "Latitude": 49.19309,
+                  "Longitude": -123.18053
+                }
+              },
+              "Address": {
+                "Label": "Grant McConachie Way, Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "Street": "Grant McConachie Way",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1198889535",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 812.9,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_-LXVhDMEU2VlYg4uDcnJMA_l_1198890678_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.193662,
+                "Longitude": -123.1801004
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.194,
+                  "Longitude": -123.18011
+                },
+                "BottomRight": {
+                  "Latitude": 49.19363,
+                  "Longitude": -123.17999
+                }
+              },
+              "Address": {
+                "Label": "Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1198890678",
+                "Spot": 0.09,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 813.5,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_0fN1tOL9Bmcspm.HLsCrJC_l_937967052_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.19309,
+                "Longitude": -123.18054
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19309,
+                  "Longitude": -123.18054
+                },
+                "BottomRight": {
+                  "Latitude": 49.1928,
+                  "Longitude": -123.18046
+                }
+              },
+              "Address": {
+                "Label": "Grant McConachie Way, Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "Street": "Grant McConachie Way",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "937967052",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 813.7,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_-LXVhDMEU2VlYg4uDcnJMA_l_1198890680_L",
+              "LocationType": "point",
+              "DisplayPosition": {
+                "Latitude": 49.19363,
+                "Longitude": -123.18011
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 49.19363,
+                  "Longitude": -123.18016
+                },
+                "BottomRight": {
+                  "Latitude": 49.19343,
+                  "Longitude": -123.18011
+                }
+              },
+              "Address": {
+                "Label": "Richmond, BC V7B, Canada",
+                "Country": "CAN",
+                "State": "BC",
+                "County": "Metro Vancouver",
+                "City": "Richmond",
+                "District": "Sea Island",
+                "PostalCode": "V7B",
+                "AdditionalData": [
+                  {
+                    "value": "Canada",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "British Columbia",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Metro Vancouver",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1198890680",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "21041602",
+                "StateId": "21086807",
+                "CountyId": "21086808",
+                "CityId": "21086938"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

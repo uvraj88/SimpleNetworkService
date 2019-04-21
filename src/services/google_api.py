@@ -50,7 +50,7 @@ class googleApi(object):
 
     def address(self, json):
         if json['results'] != None and len(json['results'])>0:
-            self._address = json['results'][0]['address_components'][0]
+            self._address = json['results'][0]
             return self._address.get('formatted_address')
         else:
             logging.error("Problem with JSON Response, Json Dump %s, fetched using %s!", json, self._getName())

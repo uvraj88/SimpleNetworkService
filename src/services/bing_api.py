@@ -49,10 +49,9 @@ class bingApi(object):
         return data
 
     def address(self, json):
-        if json['Response'] != None and json['Response']['View'] != None and len(json['Response']['View'])>0:
-            location = json['Response']['View'][0]['Result'][0]['Location']
-            self._address = location.get('Address')
-            return self._address.get('Label')
+        if json['resourceSets'] != None and len(json['resourceSets'])>0 and json['resourceSets'][0]['estimatedTotal']>=1:
+            self._address = json['resourceSets'][0]['resources'][0]['address']
+            return self._address.get('formattedAddress')
         else:
             logging.error("Problem with JSON Response, Json Dump %s, fetched using %s!", json, self._getName())
             self._address = None
