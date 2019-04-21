@@ -38,12 +38,12 @@ paths:
           in: query
           type: number
           format: float
-          default: 49.45
+          default: 49.196712
         - name: long
           in: query
           type: number
           format: float
-          default: -123.50
+          default: -123.1902671
       responses:
         200:
-          description: "Returns a human readable address"
+          description: "Returns a human readable address!"

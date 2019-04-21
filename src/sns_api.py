@@ -9,7 +9,8 @@ from helper import Helper
 from models import GeocoderResponse
 
 class SNSApi():
-    """A python interface into the Here Geocoder API"""
+    """A python Class which provides API's to fetch address
+    using multiple provider interfaces."""
 
     def __init__(self):
         """Returns a SNSApi instance.
@@ -19,9 +20,17 @@ class SNSApi():
         self.bingApi = bingApi()
 
     def __get(self, lat, long):
+        """Getter for an an address based provider implementation.
+        Args:
+          lat (float): latitude of a location
+          long (float): longitude of a location
+        Returns:
+          A human readable address or None.
+        """
         data = self.currentProvider.form_params(lat, long)
         url = Helper.build_url(self.currentProvider._base_url, extra_params=data)
         logging.debug("Fetching Url %s", url)
+
         response = requests.get(url, timeout=self.currentProvider._timeout)
         logging.debug("HTTP Request response %s", response.status_code)
 
@@ -48,20 +57,22 @@ class SNSApi():
 
 
     def resolve_to_address(self, lat, long):
-        """Geocodes given search text with in given boundingbox
+        """function to implement address getter and retry logic.
         Args:
           lat (float)
           long (float)
         Returns:
-          GeocoderResponse instance or Error"""
-        self.currentProvider = self.hereApi
+          A human readable address or Error"""
 
+        # try initially with HERE API.
+        self.currentProvider = self.hereApi
         response = self.__get(lat, long)
 
         if (response == None):
             #retry with google.
             self.currentProvider = self.googleApi
             response = self.__get(lat, long)
+            #we can try further with bing, we can update later based on need.
             return response if response != None else "Geocode Fetching Failed!"
         else:
             return response

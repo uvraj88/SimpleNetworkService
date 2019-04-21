@@ -13,15 +13,14 @@ except ImportError:
     from urllib import urlencode
 
 class Helper(object):
-    """Helper class for main api classes"""
+    """Helper class for SNS api class"""
 
     @staticmethod
     def encode_parameters(parameters):
         """Return a string in key=value&key=value form.
         Values of None are not included in the output string.
         Args:
-          parameters (dict):
-            dictionary of query parameters to be converted.
+          parameters (dict): dictionary of query parameters to be converted.
         Returns:
           A URL-encoded string in "key=value&key=value" form
         """
@@ -34,14 +33,12 @@ class Helper(object):
             return urlencode(dict((k, v) for k, v in parameters.items() if v is not None))
 
     @staticmethod
-    def build_url(url, extra_params=None):
+    def build_url(url, extra_params = None):
         """Builds a url with given parameters which will
         be used in requests.
         Args:
-          url (str):
-            base url.
-          extra_params (dict):
-            dictionary of query parameters.
+          url (str): base url.
+          extra_params (dict): dictionary of query parameters.
         Returns:
           A encoded url ready for the request"""
 
