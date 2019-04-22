@@ -1,12 +1,12 @@
 {
   "google": [
-    "AIzaSyDQGsu3Bm63atl0hGBarg0H2i0Z6mlo9mY"
+    "dummy_apikey"
   ],
   "bing": [
-    "AsGsYbid40e6fmCJ3-cpuscPsMKMBI7Rua_IinzIgt1Tod4Nm_zX7QKcRmA3_sgr"
+    "dummy_apikey"
   ],
   "here": [
-    "66G2EC8SONOks4eiqzWv",
-    "B2I7--7yCJhmzW6w_MuIOQ"
+    "dummy_api_id",
+    "dummy_api_code"
   ]
 }
