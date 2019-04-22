@@ -33,5 +33,5 @@ This calls Sns_api file api method.
 4. src/swagger folder
 * swagger.yaml file which defines rest endpoint configuration.
 
-5.'tst' folder contains test files.
+5. 'tst' folder contains test files.
 * results folder in tst gives mock json object for google and here rest responses.
