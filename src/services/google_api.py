@@ -4,27 +4,22 @@ class googleApi(object):
     which is used to fetch address using Google.
     """
 
-    def __init__(self, config, app_key=None, timeout=None):
+    def __init__(self, config, timeout=None):
         """Returns a Api instance.
         Args:
           config (array): Json object to fetch keys.
-          app_key (str): App key taken from bing Developer Portal.
           timeout (int): Timeout limit for requests.
         """
-        self.__set_credentials(app_key, config)
+        self.__set_credentials(config)
         self.__set_timeout(timeout)
         self._base_url = 'https://maps.googleapis.com/maps/api/geocode/json'
 
-    def __set_credentials(self, app_key, config):
+    def __set_credentials(self, config):
         """Setter for credentials.
         Args:
-          app_key (str): App key taken from Bing Developer Portal.
           config (array): Json object to fetch keys.
         """
-        if app_key:
-            self.app_key = app_key
-        else:
-            self.app_key = config['google'][0]
+        self.app_key = config['google'][0]
 
     def __set_timeout(self, timeout):
         """Setter for timeout.

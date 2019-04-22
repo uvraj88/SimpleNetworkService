@@ -9,7 +9,7 @@ from services.here_api import hereApi
 from services.google_api import googleApi
 from services.bing_api import bingApi
 from helper import Helper
-from models import GeocoderResponse
+from model import GeocoderResponse
 
 class SNSApi():
     """A python Class which provides API's to fetch address

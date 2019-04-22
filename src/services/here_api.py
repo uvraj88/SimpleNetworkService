@@ -4,31 +4,23 @@ class hereApi(object):
     which is used to fetch address using HERE.
     """
 
-    def __init__(self, config, app_id=None, app_code=None, timeout=None):
+    def __init__(self, config, timeout=None):
         """Returns a Api instance.
         Args:
           config (array): Json object to fetch keys.
-          app_id (str): App Id taken from HERE Developer Portal.
-          app_code (str): App Code taken from HERE Developer Portal.
           timeout (int): Timeout limit for requests.
         """
-        self.__set_credentials(app_id, app_code, config)
+        self.__set_credentials(config)
         self.__set_timeout(timeout)
         self._base_url = 'https://reverse.geocoder.api.here.com/6.2/reversegeocode.json'
 
-    def __set_credentials(self, app_id, app_code, config):
+    def __set_credentials(self, config):
         """Setter for credentials.
         Args:
-          app_id (str): App Id taken from HERE Developer Portal.
-          app_code (str): App Code taken from HERE Developer Portal.
           config (array): Json object to fetch keys.
         """
-        if app_id and app_code:
-            self._app_id = app_id
-            self._app_code = app_code
-        else:
-            self._app_id = config['here'][0]
-            self._app_code = config['here'][1]
+        self._app_id = config['here'][0]
+        self._app_code = config['here'][1]
 
     def __set_timeout(self, timeout):
         """Setter for timeout.
